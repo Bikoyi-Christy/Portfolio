@@ -1,0 +1,100 @@
+/* Palette de bleu #4483b4	rgb(68, 131, 180)
+Palette bleu clair #91c7e2	rgb(145, 199, 226)
+*/
+
+
+@font-face {
+    font-family: "gloss and bloom";
+    src: url("/assets/Gloss_And_Bloom.ttf"),
+         url("/assets/Gloss_And_Bloom.ttf");
+   }
+   body{
+       margin: 0px;
+       padding: 0px;
+   }
+ul li{
+    list-style-type:none;
+    margin: 10px;
+    color: white;
+
+
+}
+.logoH{
+    height: 20px;
+}
+
+.menu{ 
+    display: flex;              /* Transformation en flexbox */
+    padding:0; 
+    margin-top: 0px; 
+    justify-content: right;                 /* Suppression des marges internes */
+}
+
+
+h1{
+    font-family: "gloss and bloom";
+    font-size: 40px;
+    color: white;
+}
+
+
+p{
+    padding-top: 20px;
+    text-align: right;
+}
+.photo{
+    width: 50%;
+    height: fit-content;
+    transform: translate(0, -100px);
+}
+.encart{
+    display: flex;
+    height: 300px;
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+   width: 50%;
+}
+
+.header{
+    background: #91c7e2;
+}
+/* marge bottom en negatif */
+
+.backDiv{
+    background: #4483b4;
+    margin-bottom: -5%;
+    margin-left: auto;
+    padding: 50px 45px 50px 45px;
+    width: 45%;
+    }
+
+.backDiv h2, .backDiv p{
+    text-align: center;
+    color: white;
+}
+
+.bio{
+    padding-top: 15%;
+}
+
+.bio h2{
+    text-align: center;
+    font-family: "gloss and bloom";
+    font-size: 40px;
+}
+
+.skill{
+    background: #4483b4;
+}
+
+.skill h2{
+    font-family: "gloss and bloom";
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+}
+}
