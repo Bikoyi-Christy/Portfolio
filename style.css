@@ -11,12 +11,24 @@ Palette bleu clair #91c7e2	rgb(145, 199, 226)
    body{
        margin: 0px;
        padding: 0px;
+
    }
 ul li{
     list-style-type:none;
     margin: 10px;
     color: white;
 
+
+}
+
+.citation{
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.citation2{
+    font-style: italic;
+    font-family: 'Source Code Pro', monospace;
 
 }
 .logoH{
@@ -74,6 +86,8 @@ p{
 .backDiv h2, .backDiv p{
     text-align: center;
     color: white;
+    font-family: 'Source Code Pro', monospace;
+
 }
 
 .bio{
@@ -85,9 +99,15 @@ p{
     font-family: "gloss and bloom";
     font-size: 40px;
 }
-
+.bio p{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Source Code Pro', monospace;
+}
 .skill{
     background: #4483b4;
+    padding-bottom: 3%;
+
 }
 
 .skill h2{
@@ -97,4 +117,44 @@ p{
     text-align: center;
     padding-top: 3%;
 }
+
+.skill p{
+    text-align: right;
+}
+
+.placeBar{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-left: 30%;
+    margin-right: 15%;
+}
+
+.experience h2{
+    text-align: center;
+    font-family: "gloss and bloom";
+    font-size: 40px;
+}
+
+.experience p{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer{
+    background: #91c7e2;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 10px;
+}
+
+.footer p{
+    
+    text-align: center;
+    color: white;
+}
+
+.logolinkedin{
+    height: 50px;
+
 }
