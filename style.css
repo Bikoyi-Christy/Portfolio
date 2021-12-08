@@ -92,6 +92,7 @@ p{
 
 .bio{
     padding-top: 15%;
+    
 }
 
 .bio h2{
@@ -125,10 +126,16 @@ p{
 .placeBar{
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    margin-left: 30%;
+    margin-left: 15%;
     margin-right: 15%;
 }
+.placeBar progress{
 
+    width: 80%;
+}
+.experience{
+    background-image: url(/assets/books_759.jpg);
+}
 .experience h2{
     text-align: center;
     font-family: "gloss and bloom";
@@ -157,4 +164,55 @@ p{
 .logolinkedin{
     height: 50px;
 
+}
+
+.utecClef{
+    text-align: center;
+    padding-top: 3%;
+}
+.BTS h2{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.BTS p{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Source Code Pro', monospace;
+}
+.logoutec{
+    height: fit-content;
+    transform: translate(0, 215px);
+}
+.logobee{
+    width: 50%;
+    height: fit-content;
+    transform: translate(0, 215px);
+}
+.projetU{
+    background: #4483b4;
+    text-align: center;
+
+}
+.projetU p{
+    text-align: center;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Source Code Pro', monospace;
+}
+.projetU h2{
+    font-family: "gloss and bloom";
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.teasersaiil{
+    width: 50%;
+    height: 50%;
+}
+
+.teaserimage{
+    text-align: center;
 }
