@@ -133,9 +133,9 @@ p{
 
     width: 80%;
 }
-.experience{
+/* .experience{
     background-image: url(/assets/books_759.jpg);
-}
+} */
 .experience h2{
     text-align: center;
     font-family: "gloss and bloom";
@@ -229,4 +229,9 @@ p{
 .placeBar2 progress{
 
     width: 80%;
+}
+
+table,
+td {
+    border: 1px solid #333;
 }
