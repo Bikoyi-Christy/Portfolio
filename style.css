@@ -235,3 +235,16 @@ table,
 td {
     border: 1px solid #333;
 }
+
+.netvibes{
+    width: 50%;
+    height: fit-content;
+    transform: translate(0, 215px);
+}
+
+.divnetvibes{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin:2%;
+}
