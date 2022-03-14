@@ -4,9 +4,13 @@ Palette bleu clair #91c7e2	rgb(145, 199, 226)
 
 
 @font-face {
-    font-family: "gloss and bloom";
+    font-family: "gloss and bloom", "Lora";
     src: url("/assets/Gloss_And_Bloom.ttf"),
-         url("/assets/Gloss_And_Bloom.ttf");
+         url("/assets/Gloss_And_Bloom.ttf"),
+         url("/assets/static/Lora-Bold.ttf"),
+         url("/assets//static/Lora-Medium.ttf"),
+         url("assets/static/Lora-Regular.ttf");
+
    }
    body{
        margin: 0px;
@@ -21,14 +25,17 @@ ul li{
 
 }
 
+p{
+    font-family: 'gloss and bloom';
+}
 .citation{
     font-size: 20px;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Lora', monospace;
 }
 
 .citation2{
     font-style: italic;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Lora', monospace;
 
 }
 .logoH{
@@ -86,7 +93,7 @@ p{
 .backDiv h2, .backDiv p{
     text-align: center;
     color: white;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Lora', monospace;
 
 }
 
@@ -103,7 +110,7 @@ p{
 .bio p{
     text-align: center;
     font-size: 18px;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Lora', monospace;
 }
 .skill{
     background: #4483b4;
@@ -120,7 +127,7 @@ p{
 }
 
 .skill p{
-    text-align: right;
+    text-align: center;
 }
 
 .placeBar{
@@ -143,7 +150,7 @@ p{
 }
 
 .experience p{
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Lora', monospace;
     text-align: center;
     font-size: 18px;
 }
@@ -178,7 +185,7 @@ p{
 .BTS p{
     text-align: center;
     font-size: 18px;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Lora', monospace;
 }
 .logoutec{
     height: fit-content;
@@ -198,7 +205,7 @@ p{
     text-align: center;
     text-align: center;
     font-size: 18px;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Lora', monospace;
 }
 .projetU h2{
     font-family: "gloss and bloom";
